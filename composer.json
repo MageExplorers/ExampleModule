@@ -1,0 +1,29 @@
+{
+    "name" : "mageexplorers/examplemodule",
+    "description": "Example Module",
+    "require": {
+        "mageexplorers/core": "^0.0.1"
+    },
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "MagentoExplorers",
+            "email": "bradley@magentoexplorers.com",
+            "homepage": "https://magentoexplorers.com",
+            "role": "Senior Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MageExplorers\\ExampleModule\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+
+}
